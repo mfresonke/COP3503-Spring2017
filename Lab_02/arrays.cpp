@@ -44,4 +44,12 @@ int main() {
 		delete [] d2DArr[i];
 	}
 	delete [] d2DArr;
+
+	// Vectors
+	std::vector<int> myAwesomeVect;
+	myAwesomeVect.push_back(2);
+	std::cout << "The first ele is: " << myAwesomeVect[0] << std::endl;
+
+	// 2D Vectors
+	std::vector<std::vector<int>> probablyNotWorthIt;
 }

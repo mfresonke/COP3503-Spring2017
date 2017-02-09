@@ -2,6 +2,9 @@
 *~
 *~$*
 
+# Java BS
+*.class
+
 *.DS_Store
 
 # Compiled Object files

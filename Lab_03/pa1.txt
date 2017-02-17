@@ -1,0 +1,5 @@
+- Arrays
+	+ Static Arrays
+		- Size HAD to be Constant
+	+ Dynamic Arrays
+		- Want to see delete

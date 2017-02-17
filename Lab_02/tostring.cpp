@@ -8,6 +8,9 @@ int main() {
 	myStr += std::to_string(num);
 	std::cout << myStr << std::endl;
 
+	// bools are weird
+	std::cout << std::to_string(true) << std::endl;
+
 	// Converting string int
 	std::string numStr = "1337";
 	num = std::stoi(numStr);

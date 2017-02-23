@@ -1,0 +1,25 @@
+OOP Principles
+
+  - Encapsulation
+    - protecting your private parts
+    - Holding all the relevant data for yourself in a single class
+    - Only the object can determine how it's state changes
+
+  - Inheritance
+    - Hierarchy
+    - Child and Parent
+    - Number of Parents
+      - Java: Only extend one class
+      - C++: "Multiple inheritance"- more than one parent class
+        - Car class + Boat class = Caboat
+
+  - Abstraction
+    - You don't need to know how the internals of an object work
+    - <vector> == ArrayList
+    - You can take advantage of functionality without knowing how it works
+
+  - Polymorphism
+    - Ability for objects of different "concrete types" to be treated the same.
+      - Dog is Animal
+      - Caboat is Car
+      - One way hierarchy

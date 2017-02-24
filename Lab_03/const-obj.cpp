@@ -1,5 +1,11 @@
 #include <iostream>
 
+struct SomeThing {
+  // public by default
+private:
+  // private stuff
+};
+
 class Person {
   int age;
   const std::string name;
@@ -18,12 +24,22 @@ public:
       ++age;
     }
   }
+  void setAge(int age) {
+    //
+  }
 };
 
-int main() {
-  Person p(22, "Max");
+void printPeopleStuff(const Person * p) {
+  std::cout << "Name of person: " << (*p).getName() << std::endl;
+  // hehehehehehe
+  // p->haveABirthday(); // :(
+}
 
-  std::cout << "Age of person: " << p.getAge() << std::endl;
+int main() {
+  Person max(22, "Max");
+  printPeopleStuff(&max);
+
+  std::cout << "Age of person: " << max.getAge() << std::endl;
 
   const Person trev(21, "Trevor jskdfjdslkf");
 

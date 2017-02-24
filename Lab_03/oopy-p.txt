@@ -4,10 +4,13 @@ OOP Principles
     - protecting your private parts
     - Holding all the relevant data for yourself in a single class
     - Only the object can determine how it's state changes
+    - Allows reuse of code
 
   - Inheritance
     - Hierarchy
     - Child and Parent
+      - Animal -> Dog
+      - Motor Vehicle -> Truck
     - Number of Parents
       - Java: Only extend one class
       - C++: "Multiple inheritance"- more than one parent class

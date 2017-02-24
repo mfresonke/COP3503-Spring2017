@@ -26,6 +26,8 @@
 
 void throwException() {
   throw std::invalid_argument("you did it bad.");
+  // CPU Interrupt
+  // Expensive
 }
 
 int main() {

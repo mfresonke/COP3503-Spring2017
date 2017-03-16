@@ -1,0 +1,3 @@
+Finding the number of pages needed
+	- ceiling( num_kbytes_needed / (double) page_size )
+	

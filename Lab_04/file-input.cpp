@@ -4,7 +4,7 @@
 const std::string FILENAME_INPUT = "input-example.txt";
 
 int main() {
-	std::ifstream file(FILENAME_INPUT);
+	std::ifstream file( FILENAME_INPUT.c_str() );
 	int bestNum = 0;
 	std::string name1;
 	double bestDouble = 0;

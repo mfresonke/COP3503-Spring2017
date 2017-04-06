@@ -1,3 +1,5 @@
+sum=sum + i + j;
+
 FOR (i, 10, ++)
 BEGIN
   FOR (j, 10, ++)

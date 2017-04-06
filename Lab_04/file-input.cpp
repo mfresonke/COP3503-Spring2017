@@ -3,6 +3,11 @@
 
 const std::string FILENAME_INPUT = "input-example.txt";
 
+// how to pass to func.
+void passToFunc(std::ifstream &file) {
+
+}
+
 int main() {
 	std::ifstream file( FILENAME_INPUT.c_str() );
 	int bestNum = 0;

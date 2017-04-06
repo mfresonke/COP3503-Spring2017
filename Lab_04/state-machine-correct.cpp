@@ -15,6 +15,12 @@ public:
 	void addIfNotExist(std::string item);
 };
 
+// enum Days {
+// 	Monday,
+// 	Tuesday,
+// 	Wednesday,
+// }
+
 // example states. Make these however your brain thinks about them.
 enum State {
 	FOR_OR_EXP,
